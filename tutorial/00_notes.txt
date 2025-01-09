@@ -1,0 +1,75 @@
+JAVA  
+__________________________________________________________________________________
+
+BASIC STRUCTURE OF JAVA PROGARAM
+    FUNCTIONS
+        - code to execute a particular task
+        - camelCaseConvention
+    CLASSES
+        - collection of similar kind of functions
+        - template to make object entity
+        - PascalConvention
+_________________________________________________________________________________
+
+ANATOMY OF A JAVA PROGARAM
+    - DOCUMENTATION             (suggested)
+    - PAKAGE STATEMENTS         (Optional)
+    - IMPORT STATEMENTS         (Optional)
+    - INTERFACE STATEMENTS      (Optional)
+    - CLASS DEFINITIONS         (Optional)
+    - MAIN METHOD CLASS         (Essential)
+__________________________________________________________________________________
+
+DATA TYPES
+
+    - PRIMITIVE
+        - range of values: -2^(8n -1) to 2^(8n-1)-1  // n -> no of bytes, 8 bits in 1 byte
+        - intrensic
+
+    - NON PRIMITIVE
+        - derieved
+        
+LITERALS
+    - const value that can be assigned to a variable
+        // classes in java.lang
+        - char ch = 'a'; // single quotes
+        - int num = 23;
+        - double db = 2.334;
+        - float flt = 22.33f;
+        - long num = 11111111113333333l;
+        - boolean a = true;
+        - String str = "Milady";
+___________________________________________________________________________________
+ 
+ package something; // group related classes --> like folder in file directory
+ public class Main{ // main class
+    public static void main(string[] args){ // entry point into application
+        //code
+    }
+ }
+
+pakage:
+    - to group classes
+
+public static void main
+    - public: 
+        - access modifier
+    - static: 
+        - functions act independently even on being a part of a class
+        - creation of object of main class is not required to run the function
+    - void: 
+        - does not return anything
+
+string[] args:
+    - something
+__________________________________________________________________________________
+
+println --> prints new line after argument
+__________________________________________________________________________________
+
+CONSTRUCTOR:
+    - automatically gets called on object creation
+    - init objects
+    - should not make logic.. only for init obj
+
+__________________________________________________________________________________
