@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class lab03_VolumeBox {
+public class VolumeBox {
     public static void main(String[] args){
         int l, b, h;
         Scanner sc = new Scanner(System.in);

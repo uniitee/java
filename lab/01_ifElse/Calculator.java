@@ -2,7 +2,7 @@
 // use of switch case, nested if-else, recursion
 import java.util.Scanner;
 
-public class lab01_Calculator {
+public class Calculator {
     public static int add(int a, int b){
         return a + b;
     }
