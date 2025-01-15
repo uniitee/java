@@ -23,6 +23,7 @@ public class Bank {
     void withdraw(double amount){
         if(this.balance - amount >= 500){
             this.balance -= amount;
+            System.out.println("Withdrawal successful\nBalance: "+this.balance);
         }else{
             System.out.println("Insufficient balance");
         }
