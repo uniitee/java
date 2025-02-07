@@ -41,6 +41,7 @@ LITERALS
         - String str = "Milady";
 ___________________________________________________________________________________
  
+METHOD SIGNATURE 
  package something; // group related classes --> like folder in file directory
  public class Main{ // main class
     public static void main(string[] args){ // entry point into application
@@ -54,14 +55,23 @@ pakage:
 public static void main
     - public: 
         - access modifier
+        - else JRE would not have the access to call it
     - static: 
+        - so that JRE can call the method directly on the class without creating instance 
         - functions act independently even on being a part of a class
         - creation of object of main class is not required to run the function
     - void: 
+        - return type
         - does not return anything
+    - main:
+        - JRE access through main
 
-string[] args:
-    - something
+    - string[] args:
+        - Array of string  arguments that can be passed to the program
+        - System.out.println(args[0]);
+        - javac .\CLA.java
+        - java CLA KEKEKEKkikikii
+        - Argument 0: KEKEKEKkikikii
 __________________________________________________________________________________
 
 println --> prints new line after argument
