@@ -1,6 +1,25 @@
 JAVA  
 __________________________________________________________________________________
 
+JDK:
+    - Java Developement Kit
+    - everything that is needed to create/modify/compile/debug/test and run the program
+    - JRE + javac (java compiler)
+    - source code of all libraries
+
+JRE: 
+    - Java Runtime Environment
+    - java Standard Libray (all classes in java.lang, java.util, java.io, java.sql)
+    - JVM
+
+JVM:
+    - Java Virtual Machine
+    - executes programs
+    - loads all the byte code form .class file into the memory
+    - manages memory/garbage collection/multi threading/..
+    - platform independent
+__________________________________________________________________________________
+
 BASIC STRUCTURE OF JAVA PROGARAM
     FUNCTIONS
         - code to execute a particular task
