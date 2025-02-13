@@ -51,7 +51,7 @@ class Voter {
         System.out.println("You are eligible to vote.");
     }
 }
-public class Main {
+public class ExceptionMain {
     public static void main(String[] args) {
         try {
             Voter.checkEligibility(16); // Will throw AgeException
