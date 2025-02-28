@@ -106,3 +106,11 @@ ________________________________________________________________________________
 DYNAMIC METHOD DISPATCH
 
 _________________________________________________________________________________
+
+THREAD
+    - Concurency v/s Parallelisim
+        - Concurrency involves managing multiple tasks in overlapping time periods
+        - Parallelism involves executing multiple tasks simultaneously
+    - 
+     
+_________________________________________________________________________________
