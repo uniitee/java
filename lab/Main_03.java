@@ -17,5 +17,6 @@ public class Main_03 {
         }
         System.out.println("Sum :" + sum);
         System.out.println("Average :" + sum/n);
+        sc.close();
     }
 }
