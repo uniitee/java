@@ -1,4 +1,4 @@
-// Create a class Employee. Create 3 more classes namely, Programmer, Analyst & Project Leader. Take attributes and operations on your own
+// // Create a class Employee. Create 3 more classes namely, Programmer, Analyst & Project Leader. Take attributes and operations on your own
 // package lab;
 class Employee {
     String name;

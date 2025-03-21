@@ -1,5 +1,5 @@
 // 6.	Write a class bank, containing data member: Name of Depositor, A/c type, Type of A/c, Balance amount. Member function: To assign initial value, To deposit an amount , to withdraw an amount after checking the balance (which should be greater than Rs. 500) , To display name & balance. 
-package lab;
+// package lab;
 import java.util.Scanner;
 class Bank {
     String name, acType;

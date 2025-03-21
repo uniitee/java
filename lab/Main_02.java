@@ -1,5 +1,5 @@
 // WAP to calculate factorial of a number using command line arguments. 
-package lab;
+// package lab;
 public class Main_02 { 
     public static void main(String[] args){ 
         if (args.length == 0){ 

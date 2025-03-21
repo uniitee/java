@@ -1,5 +1,5 @@
 // 1.	WAP to find greatest of three numbers. 
-package lab;
+// package lab;
 import java.util.Scanner;
 public class Main_01 {
     public static void main(String[] args){

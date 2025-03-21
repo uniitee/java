@@ -1,5 +1,5 @@
 // WAP to increment the employee salaries on the basis of their designation(Manager-5000, General Manager-10000, CEO-20000, worker-2000). Use employee name, id, designation , salary as data member and inc_sal as member function.
-package lab;
+// package lab;
 import java.util.Scanner;
 import java.util.Vector;
 class Employee {

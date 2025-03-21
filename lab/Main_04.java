@@ -1,5 +1,5 @@
 // 4.	WAP a program to maintain the student record containing roll number, Name, marks1, marks2, marks3 as data member and getdata(), display() and setdata() as member functions.
-package lab;
+// package lab;
 import java.util.Scanner;
 class Student {
     private int rollNo;

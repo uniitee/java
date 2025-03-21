@@ -1,5 +1,5 @@
 // 3.	WAP to read a set of numbers in an array & to find the sum and average of them.
-package lab;
+// package lab;
 import java.util.Scanner;
 public class Main_03 {
     public static void main(String[] args){
