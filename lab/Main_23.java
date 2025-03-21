@@ -1,4 +1,3 @@
-
 class BankAccount {
     private int balance = 10000;
     public void withdraw(String name, int amount) {
