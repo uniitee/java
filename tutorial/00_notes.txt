@@ -100,11 +100,9 @@ CONSTRUCTOR:
     - automatically gets called on object creation
     - init objects
     - should not make logic.. only for init obj
-
 __________________________________________________________________________________
 
 DYNAMIC METHOD DISPATCH
-
 _________________________________________________________________________________
 
 THREAD
@@ -112,5 +110,70 @@ THREAD
         - Concurrency involves managing multiple tasks in overlapping time periods
         - Parallelism involves executing multiple tasks simultaneously
     - 
-     
+
+_________________________________________________________________________________
+
+Maven:
+    - Build Tool for JVM-based Languages
+    - Project Management Tool       (simplifies dependency management and builds automation.)
+    - Downloads 3rd party Dependencies in java projects
+    - Provides a standardized project structure through conventions.
+    - Uses plugins for tasks such as compiling, testing, packaging, and deploying code.
+
+
+POM
+    It is the fundamental XML file (pom.xml) used in Maven to define:
+        - Project details (name, version, dependencies).
+        - Build configuration (plugins, goals, Java version).
+        - Dependency management (external libraries).
+        - Profiles for different environments.
+
+    - pom.xml
+        Maven projects are defined in a pom.xml file, which contains
+
+        - <groupId>     
+                - Uniquely identifies the project across all projects in the world.
+                - reverse domain name convention (e.g., com.example).
+        - <artifactId> 
+                - project id
+                - The name of the project (used in dependency resolution).
+        - <version>
+                - Specifies the version of the project.
+        - <properties>
+                - Defines project-wide properties, such as Java version configuration.
+        - <build>
+                -Contains build-related configurations, including:
+                - <plugins>
+                        - testing, test output, deployement ...
+        - <dependencies>
+                // downloads dependencies and make them available to project
+                <dependency>
+                    <groupId>       </groupId>
+                    <artifactId>    </artifactId>
+                    <version>       </version>
+                    <scope>         </scope>        // complie, test, runtime, provided
+                </dependency>
+
+LIFE CYCLE OF MAVEN
+
+    1. CLEAN
+        clean         -> rm all the files by previous built
+    2. DEFAULT
+        validate       → Checks if the project is correct.
+        compile        → Compiles the source code.
+        test           → Runs unit tests.
+        package        → Bundles compiled code into a JAR or WAR.
+        verify         → Runs additional tests/checks.
+        install        → Installs the package in your local repository.
+        deploy         → Deploys the package to a remote repository.
+    3. SITE
+
+    mvn compile        # Compile code
+    mvn test           # Run tests
+    mvn package        # Package into JAR/WAR
+    mvn install        # Install in local repo (~/.m2)
+    mvn clean package  # Clean old files & package
+
+DEPENDENCY MANAGEMENT
+
 _________________________________________________________________________________
