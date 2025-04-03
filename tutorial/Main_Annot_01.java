@@ -86,6 +86,8 @@ public class Main_Annot_01{
         A a = new A();
         if (a.getClass().isAnnotationPresent(VeryImportant.class)){
             System.out.println("Class A is very important");
+            System.out.println(a.getClass().getAnnotation(VeryImportant.class).value());
         }
     }
 }
+

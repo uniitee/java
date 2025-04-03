@@ -121,7 +121,8 @@ Maven:
     - Uses plugins for tasks such as compiling, testing, packaging, and deploying code.
 
 
-POM
+POM: (Project Object Model)
+    File containing all configuration details about project assenbly
     It is the fundamental XML file (pom.xml) used in Maven to define:
         - Project details (name, version, dependencies).
         - Build configuration (plugins, goals, Java version).
