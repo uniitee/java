@@ -84,10 +84,15 @@ class A{
 public class Main_Annot_01{
     public static void main(String[] args){
         A a = new A();
-        if (a.getClass().isAnnotationPresent(VeryImportant.class)){
-            System.out.println("Class A is very important");
-            System.out.println(a.getClass().getAnnotation(VeryImportant.class).value());
+        VeryImportant annotation = a.getClass().getAnnotation(VeryImportant.class);
+        if (annotation != null) {
+            System.out.println(annotation.value());
+        } else {
+            System.out.println("No annotation found");
         }
     }
 }
 
+// RetentionPolicy.SOURCE: Discarded during compilation
+// RetentionPolicy.CLASS: Stored in class file but not available at runtime (default)
+// RetentionPolicy.RUNTIME: Available at runtime through reflection
