@@ -112,6 +112,26 @@ THREAD
     - 
 
 _________________________________________________________________________________
+ANONYMOUS CLASSES:
+    - Anonymous classes enable you to make your code more concise. 
+    - They enable you to declare and instantiate a class at the same time. 
+    - They are like local classes except that they do not have a name.  
+    - Use them if you need to use a local class only once.
+
+FUNCTIONAL INTERFACE:
+    - as many default or static methods, but exactly one abstract method
+    - Because it has only SAM, the name of that method can be omitted while implementing it using lambda expression.
+
+    1. Apply:
+        - Function<T,R> : takes input type T and returns type R
+        - Function<String, Integer> length = str -> str.length();
+
+
+LAMBDA EXPRESSIONS:
+    - Lambda expressions let you express instances of single-method classes more compactly.
+
+
+_________________________________________________________________________________
 
 Maven:
     - Build Tool for JVM-based Languages
@@ -120,13 +140,13 @@ Maven:
     - Provides a standardized project structure through conventions.
     - Uses plugins for tasks such as compiling, testing, packaging, and deploying code.
 
-
 POM: (Project Object Model)
     File containing all configuration details about project assenbly
     It is the fundamental XML file (pom.xml) used in Maven to define:
         - Project details (name, version, dependencies).
         - Build configuration (plugins, goals, Java version).
-        - Dependency management (external libraries).
+        - Dependency man
+        agement (external libraries).
         - Profiles for different environments.
 
     - pom.xml
