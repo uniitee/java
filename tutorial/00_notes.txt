@@ -112,6 +112,7 @@ THREAD
     - 
 
 _________________________________________________________________________________
+
 ANONYMOUS CLASSES:
     - Anonymous classes enable you to make your code more concise. 
     - They enable you to declare and instantiate a class at the same time. 
@@ -126,12 +127,41 @@ FUNCTIONAL INTERFACE:
         - Function<T,R> : takes input type T and returns type R
         - Function<String, Integer> length = str -> str.length();
 
-
 LAMBDA EXPRESSIONS:
     - Lambda expressions let you express instances of single-method classes more compactly.
+________________________________________________________________________________
 
+GENERICS:
+    - similar to cpp templates
+    - reduce bugs and increase byte safety
 
-_________________________________________________________________________________
+COLLECTIONS
+    - framework -> an architecture to store and manipulate group of objects.
+    - operations -> searching, sorting, insertion, manipulation, and deletion.
+    - a single unit of objects.
+    - provides many interfaces (Set, List, Queue, Deque)
+    - classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
+
+    LIST
+        - An ordered collection (also known as a sequence).
+        - The user of this interface has precise control over where in the list each element is inserted.
+        - Unlike sets, lists typically allow duplicate elements.
+
+        -> ArrayList
+        -> LinkedList
+    
+    QUEUE
+        - Queues typically, but do not necessarily, order elements in a FIFO (priority)
+        - do not allow insertion of null elements
+
+        -> PriorityQueue
+
+    SET
+        - collection without duplicates
+        
+        -> HashSet
+
+________________________________________________________________________________
 
 Maven:
     - Build Tool for JVM-based Languages
@@ -196,5 +226,4 @@ LIFE CYCLE OF MAVEN
     mvn clean package  # Clean old files & package
 
 DEPENDENCY MANAGEMENT
-
 _________________________________________________________________________________
