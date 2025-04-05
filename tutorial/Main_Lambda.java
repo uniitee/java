@@ -30,7 +30,7 @@ public class Main_Lambda{
         };
         
         // Because an anonymous class definition is an expression, it must be part of a statement.
-        // obj.sayHello("John");
+        obj.sayHello("John");
 
         // ____________________________________________________________________________
         

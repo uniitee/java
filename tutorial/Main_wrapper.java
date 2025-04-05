@@ -6,6 +6,7 @@ public class Main_wrapper {
         System.out.println("Integer Object: " + wrappedNum);
 
         // Converting Integer to int (Unboxing)
+        @SuppressWarnings("deprecation")
         Integer obj = new Integer(20); // Explicit Object Creation
         int primitiveNum = obj; // Unboxing
         System.out.println("Primitive int: " + primitiveNum);

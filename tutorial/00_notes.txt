@@ -136,30 +136,38 @@ GENERICS:
     - reduce bugs and increase byte safety
 
 COLLECTIONS
+    - java.util
     - framework -> an architecture to store and manipulate group of objects.
-    - operations -> searching, sorting, insertion, manipulation, and deletion.
+    - provides static methods for operations -> searching, sorting, insertion, manipulation, and deletion.
     - a single unit of objects.
     - provides many interfaces (Set, List, Queue, Deque)
     - classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
+
+    WHY COLLECTIONS?
+    - To be able to write code quickly and efficiently
+    - efficient storage
+    - better manipulation of data
 
     LIST
         - An ordered collection (also known as a sequence).
         - The user of this interface has precise control over where in the list each element is inserted.
         - Unlike sets, lists typically allow duplicate elements.
-
         -> ArrayList
+            - variable size collection
         -> LinkedList
+        -> Vector
+        -> Stack
+            - LIFO data Sturcture
     
     QUEUE
         - Queues typically, but do not necessarily, order elements in a FIFO (priority)
         - do not allow insertion of null elements
-
         -> PriorityQueue
 
     SET
         - collection without duplicates
-        
         -> HashSet
+            - for storing key-value pair
 
 ________________________________________________________________________________
 
