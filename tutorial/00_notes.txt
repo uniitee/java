@@ -123,6 +123,7 @@ EXCEPTION
 
     - java.lang.Exception
 
+    - FileNotFoundExcwption (checked)
     - NullPointerException
     - ArithemeticException
     - ArrayIndexOutOfBoundException
