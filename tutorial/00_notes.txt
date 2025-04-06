@@ -91,7 +91,6 @@ public static void main
         - javac .\CLA.java
         - java CLA KEKEKEKkikikii
         - Argument 0: KEKEKEKkikikii
-__________________________________________________________________________________
 
 println --> prints new line after argument
 __________________________________________________________________________________
@@ -110,7 +109,41 @@ THREAD
         - Concurrency involves managing multiple tasks in overlapping time periods
         - Parallelism involves executing multiple tasks simultaneously
     - 
+_________________________________________________________________________________
 
+ERRORS:
+    - syntax    (programmer end) (compiler)
+    - logical   (programmer end) (bug. compiles and runs but does the wrong thing)
+    - runtime   (user end)       (exception)
+
+EXCEPTION
+    - event that occurs when a program is exe disrupting the normal flow of instructions.
+    1. Checked      -> Compile time exceptions. handled by compiler
+    2. Unchecked    -> runtime exceptions
+
+    - java.lang.Exception
+
+    - NullPointerException
+    - ArithemeticException
+    - ArrayIndexOutOfBoundException
+    - IlleagalArgumentException
+    - NumberFormatException
+
+EXCEPTION HANDELING:
+    - saves from unexpected interuption
+
+    try{
+        // code that can cause exception
+    }
+    catch (IOException e){
+        // handles all exceptions of IO type
+    }
+    catch (ArithemeticException e){
+        // handles all exceptions of IO type
+    }
+    catch (IOException e){
+        // handles all other exceptions
+    }
 _________________________________________________________________________________
 
 ANONYMOUS CLASSES:
@@ -168,7 +201,6 @@ COLLECTIONS
         - collection without duplicates
         -> HashSet
             - for storing key-value pair
-
 ________________________________________________________________________________
 
 Maven:
