@@ -165,6 +165,13 @@ LAMBDA EXPRESSIONS:
     - Lambda expressions let you express instances of single-method classes more compactly.
 ________________________________________________________________________________
 
+I/O HANDELING
+    - FlieReader, BufferReader : reading from a file
+    - FileWriter, BufferWriter : writing to a flie
+    - Scanner : for user input
+    - PrintWriter : for easy console/file writing
+________________________________________________________________________________
+
 GENERICS:
     - similar to cpp templates
     - reduce bugs and increase byte safety
