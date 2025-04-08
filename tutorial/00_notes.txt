@@ -180,7 +180,7 @@ COLLECTIONS
     - java.util
     - framework -> an architecture to store and manipulate group of objects.
     - provides static methods for operations -> searching, sorting, insertion, manipulation, and deletion.
-    - a single unit of objects.
+    - a group/single unit of objects.
     - provides many interfaces (Set, List, Queue, Deque)
     - classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
 
