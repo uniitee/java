@@ -1,18 +1,39 @@
-JAVA  
+JAVA
+    - OOP
+    - Write Once, Run Anywhere (platform independent just JVM installed)
+    - java install = jadk install
 __________________________________________________________________________________
 
+JDK
+|-- Development Tools (javac, javadoc, etc.)
+|-- Source Code
+|-- JRE
+    |-- Core Classes (compiled)
+    |-- Supporting / config files
+    |-- JVM
+        |-- execution (interprets platform independent bytecode to machine code)
+        |-- memory manegment / garbage collection / multi threading /..
+
 JDK:
+    - (java ka program likh payen, for developers)
     - Java Developement Kit
+    - Software Developement Environment
     - everything that is needed to create/modify/compile/debug/test and run the program
     - JRE + javac (java compiler)
+    - javac compiler -> compiles java code (.java) into bytecode (.class)
+    - developement tools -> debugger, documentation generator (javadoc)
     - source code of all libraries
 
 JRE: 
+    - (java ka program run kar payen on a computer, for end users)
     - Java Runtime Environment
+    - compiled core classes 
+    - configuration files
     - java Standard Libray (all classes in java.lang, java.util, java.io, java.sql)
     - JVM
 
 JVM:
+    - (actual engiene that runs the java bytecode on any platform)
     - Java Virtual Machine
     - executes programs
     - loads all the byte code form .class file into the memory
@@ -74,6 +95,7 @@ pakage:
 public static void main
     - public: 
         - access modifier
+        - can be accessed outside the class
         - else JRE would not have the access to call it
     - static: 
         - so that JRE can call the method directly on the class without creating instance 
@@ -86,13 +108,25 @@ public static void main
         - JRE access through main
 
     - string[] args:
-        - Array of string  arguments that can be passed to the program
-        - System.out.println(args[0]);
-        - javac .\CLA.java
-        - java CLA KEKEKEKkikikii
-        - Argument 0: KEKEKEKkikikii
+        - Array of string arguments that can be passed to the program
+        - accepts Array of strings as parameters
+            - System.out.println(args[0]);
+            - javac .\CLA.java
+            - java CLA KEKEKEKkikikii
+            - Argument 0: KEKEKEKkikikii
 
-println --> prints new line after argument
+System.out.println()
+    - System
+        - class in java.lang
+        - provides access to system, including the console
+
+    - out
+        - instance of the PrintStream class within the System class
+        - representing the console.
+
+    - println 
+        - method used to print line of text to the console
+        - prints new line after argument
 __________________________________________________________________________________
 
 CONSTRUCTOR:
