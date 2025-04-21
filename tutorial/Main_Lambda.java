@@ -46,3 +46,6 @@ public class Main_Lambda{
         // ____________________________________________________________________________
     }
 }
+
+// InterfaceName n1 = new InterfaceName(){ public void func(){}; };
+// FuncInterfaceName f1 = (var) -> {  S.o.p("...");};
