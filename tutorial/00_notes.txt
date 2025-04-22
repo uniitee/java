@@ -122,8 +122,8 @@ public static void main
         - accepts Array of strings as parameters
             - System.out.println(args[0]);
             - javac .\CLA.java
-            - java CLA KEKEKEKkikikii
-            - Argument 0: KEKEKEKkikikii
+            - java CLA KEKEKEKkikiki
+            - Argument 0: KEKEKEKkikiki
 
 System.out.println()
     - System
