@@ -90,13 +90,15 @@ METHOD SIGNATURE
  }
 
 pakage:
-    - to group classes
-    - code organization
-    - name collision prevention
-    - Modularity
-    - code Reusability
-    - Complex Stucture
-    - long import statements
+    - to group classes of similar types
+    - advantages:
+        - code organization
+        - name collision prevention
+        - Modularity
+        - Code Reusability
+    - disadvantages:
+        - Complex Stucture
+        - long import statements
     - ( 
         package Package02;
         import Package01.Student;
