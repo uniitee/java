@@ -1,5 +1,3 @@
 # Java Files 4th Semester
 
-*La Lune*  
-</br>
-[![Moon.svg](https://moon-svg.minung.dev/moon.svg?theme=basic&rotate=0)](https://moon-svg.minung.dev)
+<img src="https://i.pinimg.com/736x/24/49/05/244905a53d441a00074d8584d8491a9d.jpg" alt="Java 4th Semester" />
