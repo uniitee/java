@@ -2,22 +2,25 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Compile Java",
+      "label": "Compile All Java Files",
       "type": "shell",
       "command": "javac",
-      "args": ["-d", "out", "${file}"],
+      "args": [
+        "-d",
+        "out",
+        "${workspaceFolder}/com/engineeringdigest/javacore//*.java"
+      ],
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": ["$javac"],
-      "detail": "Compiles Java files and stores .class files in the 'out' folder."
+      "problemMatcher": ["$javac"]
     },
     {
-      "label": "Run Java",
+      "label": "Run Java Class",
       "type": "shell",
       "command": "java",
-      "args": ["-cp", "out", "${fileBasenameNoExtension}"],
+      "args": ["-cp", "out", "com.engineeringdigest.javacore.test.Test"],
       "group": {
         "kind": "test",
         "isDefault": true
