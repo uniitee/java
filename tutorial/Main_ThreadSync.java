@@ -15,7 +15,7 @@
 //     }
 //     @Override
 //     public void run(){
-//         for(int i = 0; i <1000 ; i++){
+//         for(int i = 0; i <3000 ; i++){
 //             ctr.increment();
 //         }
 //     }
@@ -44,10 +44,10 @@
 // ======================> With Synchronization <=========================
 class Counter{
     private int count = 0;
-    public void increment(){
-        synchronized(this){ 
+    public synchronized void  increment(){ // use this -- way 1
+        // synchronized(this){  // or use this -- way 2
             count++; // critical section
-        }
+        // }
         }
     public void getCount(){
         System.out.println("Count: " + count);
@@ -60,7 +60,7 @@ class MyThread extends Thread{
     }
     @Override
     public void run(){
-    // public Synchronized void run(){ 
+    // public synchronized void run(){ // or do this -- way 3
         for(int i = 0; i <1000 ; i++){
             ctr.increment();
         }

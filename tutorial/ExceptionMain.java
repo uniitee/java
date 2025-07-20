@@ -44,7 +44,7 @@ class AgeException extends Exception {
 }
 class Voter {
     // Method that throws the custom exception
-    static void checkEligibility(int age) throws AgeException {
+    static void checkEligibility(int age) throws AgeException { 
         if (age < 18) {
             throw new AgeException("You must be 18 or older to vote!");
         }
@@ -60,3 +60,7 @@ public class ExceptionMain {
         }
     }
 }
+
+// throw vs thorws
+// throw is used to explicitly throw an exception
+// while throws is used in method signatures to declare that a method can throw an exception.
