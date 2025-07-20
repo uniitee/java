@@ -34,7 +34,7 @@ public class Main_Lambda{
 
         // ____________________________________________________________________________
         
-        // Lambda expression
+        // Lambda expression 
         // -> concise way to represent an anonymous function (a function without a name).
         // -> used to implement functional interfaces (SAM).
         // ternary operators -> choosing between values, if-else statements -> choosing between actions.
